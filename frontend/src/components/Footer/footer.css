@@ -30,7 +30,7 @@
 }
 
 .footer__quick-links h6 span i {
-    color: var(--secondary-color);
+    color: green;
     font-size: 1.1rem;
 }
 

@@ -19,12 +19,12 @@
     width: max-content;
     height: max-content;
     z-index: 10;
-    background-color: var(--primary-color);
+    background-color: rgb(93, 230, 75);
     border-radius: 3px 0 0 0;
 }
 
 .card__top span i {
-    color: var(--secondary-color);
+    color: green
 }
 
 .tour__rating {
@@ -55,11 +55,11 @@
 }
 
 .tour__title a:hover {
-    color: var(--secondary-color);
+    color: green;
 }
 
 .card__bottom h5{
-    color: var(--secondary-color);
+    color: green;
     font-size: 1.1rem;
     font-weight: 700;
 }
@@ -71,7 +71,7 @@
 }
 
 .booking__btn {
-    background: var(--secondary-color) !important;
+    background: green !important;
     cursor: pointer;
     padding: 0.2rem 0.5rem !important;
 }

@@ -82,7 +82,7 @@ const TourDetails = () => {
                                     <h2>{title}</h2>
                                     <div className="d-flex align-items-center gap-5">
                                         <span className="tour__rating d-flex align-items-center gap-1">
-                                            <i class="ri-star-fill" style={{'color': "var(--secondary-color)"}}></i> {avgRating === 0 ? null : avgRating}
+                                            <i class="ri-star-fill" style={{'color': "green"}}></i> {avgRating === 0 ? null : avgRating}
                                             {totalRating === 0 ? ('Not rated')
                                             : (<span>({reviews?.length})</span>)
                                             }
@@ -133,7 +133,7 @@ const TourDetails = () => {
 
                                         <div className="review__input">
                                             <input type="text" ref={reviewMsgRef} placeholder="Share your thoughts" required/>
-                                            <button className="btn primary__btn text-white" type="submit" >Submit</button>
+                                            <button className="btn  text-white" type="submit" >Submit</button>
                                         </div>
                                     </Form>
                                     <ListGroup className="user__reviews">

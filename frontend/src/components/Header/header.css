@@ -24,7 +24,7 @@
 }
 
 .nav__item a.active__link  {
-    color: var(--secondary-color); 
+    color: green; 
 }
 
 .mobile__menu {
@@ -44,6 +44,7 @@
     box-shadow: 3px 3px 8px -3px #ddd;
     z-index: 999;
 }
+
 
 /* ======== make it responsive ======== */
 @media only screen and (max-width:992px) {
